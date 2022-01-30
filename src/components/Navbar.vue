@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="fixed-top" style="background-color:#ffff">
     <nav class="navbar shadow-sm navbar-light bg-light justify-content-between">
       <div class="container">
         <a class="navbar-brand mainColor">TourRadar</a>
@@ -61,7 +61,7 @@
         </div>
       </div>
     </nav>
-    <div class="container-fluid mt-3">
+    <div class="container-fluid  mt-3" >
       <ul class="ml-4">
         <li class="category">Lakes</li>
         <li class="category active">Mountains</li>

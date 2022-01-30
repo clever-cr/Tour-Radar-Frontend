@@ -4,6 +4,7 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faSearch, faBars, faUserCircle, faHome, faBell, faPlusSquare, faUser, faSignInAlt, faAngleDown, faSlidersH,
+  faStar,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import store from './store';
@@ -12,7 +13,7 @@ import App from './App.vue';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 
-library.add(faSearch, faBars, faUserCircle, faHome, faBell, faPlusSquare, faUser, faSignInAlt, faAngleDown, faSlidersH);
+library.add(faSearch, faBars, faUserCircle, faHome, faBell, faPlusSquare, faUser, faSignInAlt, faAngleDown, faSlidersH, faStar);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.config.productionTip = false;
