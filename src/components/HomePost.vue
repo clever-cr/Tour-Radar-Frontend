@@ -20,15 +20,3 @@ export default {
 };
 
 </script>
-
-<style>
-.all-posts{
-    background:#fff;
-    width: 100%;
-    height: 100%;
-}
-.post-margin{
-    margin-top:5em;
-}
-
-</style>

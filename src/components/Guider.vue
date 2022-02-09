@@ -26,31 +26,3 @@ export default {
   },
 };
 </script>
-
-<style>
-
-.guider{
-  background: #6c5dd3;
-  padding: 15px 5px;
-  width:320px;
-  margin-left:2%;
-  border-radius: 15px;
-  height:130px;
-}
-.guider-profile{
-  background-image: url("../assets/profile.jpg");
-  top:15px;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  background-size: cover;
-}
-h5{
-  color: #ffff;
-  font-weight: bolder !important;
-}
-h6{
-  font-weight: bolder !important;
-  color:black
-}
-</style>

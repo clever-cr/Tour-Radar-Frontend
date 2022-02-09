@@ -1,0 +1,18 @@
+@media (max-width: 450px) {
+    .mobilenav{
+        border-top:1px solid #cccccc ;
+        background: #fff;
+        position: fixed;
+        bottom: 0px;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        justify-content: space-between;
+        width: 100%;
+        z-index:1000 ;
+        .add{
+            font-size:24px !important;
+        }
+    }
+}

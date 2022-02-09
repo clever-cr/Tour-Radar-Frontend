@@ -21,23 +21,3 @@ export default {
   name: 'HomeSide',
 };
 </script>
-
-<style>
-.img-box{
-    background-image: url("../assets/akagera.jpg");
-    width: 100%;
-    height: 300px;
-    background-size: cover;
-}
-p{
- margin-bottom: 0.3rem !important;
- font-weight: 700;
-}
-.card-title {
-    margin-bottom: 0.3rem !important;
-    font-weight: bold;
-}
-.star{
-    color: yellow;
-}
-</style>

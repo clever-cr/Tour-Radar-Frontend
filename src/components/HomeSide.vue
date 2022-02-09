@@ -26,21 +26,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.guider-side{
-    background: #fff;
-    position: fixed;
-    top:135px;
-    height: 500px;
-    width: 100%;
-}
-.guiders{
-  height: 80%;
-  overflow: auto;
-}
-.footer{
-  font-weight: bolder;
-  color: black;
-}
-</style>
