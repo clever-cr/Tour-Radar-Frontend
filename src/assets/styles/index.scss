@@ -3,4 +3,23 @@
 @import './placecard.scss';
 @import './homeSide.scss';
 @import './guider.scss';
-@import './mobilenavbar.scss'
+@import './mobilenavbar.scss';
+@import './mobilecategory.scss';
+@import './mobilehomepost.scss';
+
+.mobile{
+    display: none;
+}
+.desktop{
+    display: contents;
+}
+
+@media (max-width: 450px) {
+.mobile{
+    display:inline-block;
+}
+.desktop{
+    display: none;
+}
+    
+}

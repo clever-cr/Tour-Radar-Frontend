@@ -68,6 +68,9 @@
 .logo{
     display:none;
 }
+.msg-btn{
+  display: none;
+}
   @media (max-width: 450px) {
       .filters{
           display: none;
@@ -77,6 +80,9 @@
       }
       .dpd{
           display: none;
+      }
+      .msg-btn{
+        display: inline;
       }
       .form-control {
           width: 150px !important;

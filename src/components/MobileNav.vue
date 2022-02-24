@@ -13,7 +13,7 @@
       <font-awesome-icon :icon="['fas', 'bell']" class="mainColor" />
     </div>
     <div>
-      <font-awesome-icon :icon="['fas', 'user']" class="mainColor" />
+      <font-awesome-icon :icon="['fas', 'user']" class="mainColor mobile" />
     </div>
   </nav>
 </template>

@@ -2,13 +2,15 @@
   <div class="home">
     <Navbar />
     <MobileNav/>
-    <div class="container places mt-3">
+    <MobileCategory class="mobile"/>
+    <MobileHomePost class="mobile"/>
+    <div class="container desktop places mt-3">
       <div class="row">
       <div class="col-8">
-        <HomePosts/>
+        <HomePosts class="desktop"/>
       </div>
       <div class="col-4">
-        <HomeSide/>
+        <HomeSide class="desktop"/>
       </div>
       </div>
     </div>
@@ -21,6 +23,8 @@ import Navbar from '@/components/Navbar.vue';
 import HomePosts from '@/components/HomePost.vue';
 import HomeSide from '@/components/HomeSide.vue';
 import MobileNav from '@/components/MobileNav.vue';
+import MobileCategory from '@/components/MobileCategory.vue';
+import MobileHomePost from '@/components/MobileHomePost.vue';
 
 @Component({
   components: {
@@ -28,6 +32,8 @@ import MobileNav from '@/components/MobileNav.vue';
     HomePosts,
     HomeSide,
     MobileNav,
+    MobileCategory,
+    MobileHomePost,
   },
 })
 export default class Home extends Vue {}

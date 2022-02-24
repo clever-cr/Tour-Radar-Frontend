@@ -1,0 +1,23 @@
+@media (max-width: 450px) {
+.mbcat{
+    margin-top:80px;
+    padding: 7px 3px;
+    overflow-x: scroll;
+    width: 100% !important;
+    border-bottom: 1px solid #495057;
+}
+.cat{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #495057;
+    h5{
+        color: black;
+        font-size: 0.55em;
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 52px !important;
+    }
+}
+}
