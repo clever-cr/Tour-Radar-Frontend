@@ -4,15 +4,18 @@
     <MobileNav/>
     <MobileCategory class="mobile"/>
     <MobileHomePost class="mobile"/>
-    <div class="container desktop places mt-3">
+    <MobileGuider/>
+    <div class="desktop">
+    <div class="container  mt-3">
       <div class="row">
       <div class="col-8">
         <HomePosts class="desktop"/>
       </div>
-      <div class="col-4">
+      <div class="col-4 fixedside">
         <HomeSide class="desktop"/>
       </div>
       </div>
+    </div>
     </div>
   </div>
 </template>
@@ -25,6 +28,7 @@ import HomeSide from '@/components/HomeSide.vue';
 import MobileNav from '@/components/MobileNav.vue';
 import MobileCategory from '@/components/MobileCategory.vue';
 import MobileHomePost from '@/components/MobileHomePost.vue';
+import MobileGuider from '@/components/MobileGuiders.vue';
 
 @Component({
   components: {
@@ -34,6 +38,7 @@ import MobileHomePost from '@/components/MobileHomePost.vue';
     MobileNav,
     MobileCategory,
     MobileHomePost,
+    MobileGuider,
   },
 })
 export default class Home extends Vue {}
