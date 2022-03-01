@@ -27,7 +27,7 @@
         </form>
         <div>
           <div class="msg-btn">
-            <font-awesome-icon :icon="['fas', 'sms']" class="mainColor" />
+            <font-awesome-icon :icon="['fas', 'sms']" class="mainColor msg-icon" />
             </div>
           <div class="dpd">
             <b-dropdown
