@@ -1,8 +1,14 @@
 @media (max-width: 450px) {
    .mb-guiders{
-       padding:15px;
+       padding: 0px 15px;
        height: 200px;
        width: 100%;
+       .guidercarousel{
+           width: 100%;
+           .owl-dots{
+               display: none !important;
+           }
+       }
        h5{
            color: black !important;
        }

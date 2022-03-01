@@ -22,3 +22,25 @@
     font-weight: bolder !important;
     color:black
   }
+  @media (max-width: 450px) {
+    .guider{
+      width:220px ;
+      height: 90px;
+      padding: 10px 5px;
+      h5{
+        font-size: 0.9em;
+      }
+     h6{
+      font-size: 0.8em;
+    }
+    p{
+      margin-bottom: 0em;
+    }
+    }
+
+    .guider-profile{
+      width: 70px;
+    height: 70px;
+
+    }
+  }

@@ -4,7 +4,7 @@
     <MobileNav/>
     <MobileCategory class="mobile"/>
     <MobileHomePost class="mobile"/>
-    <MobileGuider/>
+    <MobileGuider class="mobile"/>
     <div class="desktop">
     <div class="container  mt-3">
       <div class="row">
