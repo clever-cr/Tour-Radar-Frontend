@@ -8,6 +8,9 @@
 }
 .h-scroller{
     width:auto;
+    li {
+        display: inline;
+      }
 }
 .cat{
     display: inline-block;
