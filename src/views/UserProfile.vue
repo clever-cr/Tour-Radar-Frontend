@@ -7,7 +7,7 @@
           <ProfileSideBar/>
         </div>
         <div class="col-8">
-            <h1>Body</h1>
+            <ProfileMainBar/>
         </div>
         </div>
     </div>
@@ -17,12 +17,14 @@
 import { Component, Vue } from 'vue-property-decorator';
 import Navbar from '@/components/ProfileNavbar.vue';
 import ProfileSideBar from '@/components/ProfileSideBar.vue';
+import ProfileMainBar from '@/components/ProfileMainBar.vue';
 
 @Component(
   {
     components: {
       Navbar,
       ProfileSideBar,
+      ProfileMainBar,
     },
   },
 )

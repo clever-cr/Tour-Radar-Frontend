@@ -1,0 +1,41 @@
+.profile-main{
+    background: #fff;
+    margin-top:100px;
+     height: 80vh;
+    width: 100%;
+    h5,h6{
+        color:black;
+        font-weight: bolder;
+    }
+    .active {
+        border-bottom: 2px solid #6c5dd3;
+      }
+    hr{
+        border-top:2px solid #6c5dd3;
+    }
+
+    .mypostsnav{
+    display: flex;
+    justify-content: center;
+    h6{
+        margin-bottom: 0.1em;
+    }
+    }
+    
+}
+.userposts{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.smallpost{
+    background: gray;
+    background-image: url("../images/akagera.jpg");
+    height: 200px;
+    width: 220px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}

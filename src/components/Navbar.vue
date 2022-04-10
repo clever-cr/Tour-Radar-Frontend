@@ -27,7 +27,7 @@
         </form>
         <div>
           <div class="msg-btn">
-            <font-awesome-icon :icon="['fas', 'sms']" class="mainColor msg-icon" />
+            <font-awesome-icon :icon="['fas', 'mail-bulk']" class="mainColor msg-icon" />
             </div>
           <div class="dpd">
             <b-dropdown
@@ -60,7 +60,9 @@
                 Profile</b-dropdown-item
               >
               <b-dropdown-item href="#">
-                <font-awesome-icon
+          .active {
+    border-bottom: 2px solid #6c5dd3;
+  }      <font-awesome-icon
                   :icon="['fas', 'sign-in-alt']"
                   class="mainColor"
                 />Login</b-dropdown-item
